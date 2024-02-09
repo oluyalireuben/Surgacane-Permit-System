@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/morning"
+    tools:context=".Messaging">
+
+    <RelativeLayout
+        android:id="@+id/toplay"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tabrounded"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/backbtn"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:clickable="true"
+            android:padding="5dp"
+            android:src="@drawable/ic_baseline_arrow_black_24"
+            app:tint="@color/white" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@+id/User_image"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="119dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@id/backbtn"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="138dp"
+            android:layout_marginBottom="2dp"
+            android:fontFamily="sans-serif"
+            android:text="Fill a Report"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="390dp"
+            android:layout_height="327dp"
+            android:layout_marginTop="83dp"
+            android:layout_marginBottom="267dp"
+            android:background="@drawable/rounded_corner"
+            android:gravity="center|center_horizontal"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.045">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:text="Personal Details."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/Name"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="Name."
+                android:inputType="textPersonName"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="#000000"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/EmailAddress"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="Email."
+                android:inputType="textEmailAddress"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="#000000"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="16sp"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundbuttongren"
+                android:fontFamily="serif"
+                android:text="Clear."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="390dp"
+            android:layout_height="154dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="463dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/rounded_corner"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Write the report"
+            android:textAlignment="gravity"
+            android:textColor="#807C7C"
+            android:textColorHint="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="316dp"
+            android:layout_marginTop="569dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="168dp"
+            android:background="@drawable/roundbuttongren"
+            android:fontFamily="serif"
+            android:text="Submit"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

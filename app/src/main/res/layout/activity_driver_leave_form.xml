@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/morning"
+    tools:context=".Messaging">
+
+    <!-- Your existing top layout -->
+
+    <!-- Driver Leave Form -->
+
+    <RelativeLayout
+        android:id="@+id/toplay"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tabrounded"
+        android:gravity="center_vertical">
+
+        <!-- Your existing top layout elements here -->
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif"
+            android:text="Driver Leave Form"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:layout_below="@+id/Id"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Reason for Leave"
+        android:textColor="#807C7C"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextText4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundbuttongren"
+        android:fontFamily="serif"
+        android:text="Submit"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Id"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/toplay"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="ID"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#000000"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/name3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/toplay"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#000000"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextText4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="28dp"
+        android:background="@drawable/roundbuttongren"
+        android:fontFamily="serif"
+        android:text="Clear"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginback"
+    tools:context=".Services">
+
+    <RelativeLayout
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/tabrounded">
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:layout_alignRight="@id/heading"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="348dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginRight="-314dp"
+            android:background="@drawable/ic_baseline_account_circle_24"
+            android:clickable="true"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="14dp"
+            android:text="@string/home"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_alignTop="@id/textView6"
+        android:layout_marginTop="34dp">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="409dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="497dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="46dp"
+            android:background="@drawable/roundbox"
+            android:fontFamily="serif"
+            android:text="Industry Updates."
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="197dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="198dp"
+            android:layout_marginBottom="500dp"
+            android:background="@drawable/roundbuttongren"
+            android:text="Check Harvest Update"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="93dp"
+            android:layout_height="103dp"
+            android:layout_marginStart="302dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="471dp"
+            android:background="@drawable/roundedgebutton"
+            android:text="Report an Issue"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/Button7"
+            android:layout_width="133dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginBottom="410dp"
+            android:background="@drawable/roundbuttongren"
+            android:text="Register Farm"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="409dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="423dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="112dp"
+            android:background="@drawable/roundbuttongren"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Latest Updates on the Sugar market."
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="409dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="183dp"
+            android:background="@drawable/roundbuttongren"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Industry Updates."
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="185dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="313dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="248dp"
+            android:background="@drawable/rounded_corner"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="News and Updates"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/Button8"
+            android:layout_width="225dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="202dp"
+            android:layout_marginBottom="330dp"
+            android:background="@drawable/roundbox"
+            android:text="Apply For Harvest."
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="408dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="84dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Welcome To Intelli Mills."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="110dp"
+        android:layout_height="26dp"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="108dp"
+        android:layout_marginBottom="596dp"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Services"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="101dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="309dp"
+        android:layout_marginTop="686dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/roundbuttongren"
+        android:backgroundTint="#00000000"
+        android:text="Learn More."
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#304FFE"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
